@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import '../state/state_management.dart';
 
 class DetailPage extends ConsumerWidget {
-  final photo;
+  final dynamic photo;
   const DetailPage(this.photo, {Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context, WidgetRef ref) {
