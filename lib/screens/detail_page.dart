@@ -1,7 +1,6 @@
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter/material.dart';
-
 import '../state/state_management.dart';
 
 class DetailPage extends ConsumerWidget {
